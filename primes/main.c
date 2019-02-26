@@ -6,7 +6,7 @@ int main() {
 	int NumOfDiv = 0;
 	printf("This programm searches all prime numbers.\n");
 	for (int cont = 1; cont;) {
-		printf("Please, input number which limits range, above 0.\n");
+		printf("Please, input the number which limits range, above 0.\n");
 		scanf_s("%u", &MaxNum);
 		for (unsigned int i = 1; i < MaxNum; i++) {
 			for (unsigned int j = 1; j <= (int)sqrt((double)i); j++) {
